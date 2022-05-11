@@ -12,9 +12,6 @@ The complete description of the problem can be found in the [kaggle competition 
 Briefly, given the **User Rating Matrix** and some **Item Content Matrices**, the objective of the competition was to create a recommender for **TV series/Movies**.
 
 The evaluation metric used was the **MAP@10**.
-| <img src="assets/AP@10_formula.png" width="180"/> | <img src="assets/MAP@10_formula.png" width="180"/> |
-|:---:|:---:| 
-
 
 After a preprocessing phase, we used the following dataset:
 
@@ -50,5 +47,5 @@ Our best model was in fact a **hybrid between SLIM and iALS**, to improve it we 
 - **Private** Leaderboard score: **0.48080** (26th)
 
 ## Group Members
-- [__Lorenzo Mainetti__](https://github.com/LorenzoMainetti)
-- [__Andrea Menta__](https://github.com/Menta99)
+- [__Marco Lacava__](https://github.com/LacavaMarco)
+- [__Francesco Govigli__](https://github.com/FrancescoGovigli)
