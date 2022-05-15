@@ -2,8 +2,8 @@
 
 This repository contains the code used for the [Recommender System 2021 Challenge](https://www.kaggle.com/c/recommender-system-2021-challenge-polimi) hosted by the Recommender Systems course at Politecnico di Milano.
 The repository is split in 2 main folders:
-* [CustomModels](https://github.com/LacavaMarco/RecSys2021_Govigli_Lacava/tree/main/CUSTOM_MODELS) which contains our custom models and scripts created for the competition
-* [GithubModules](https://github.com/LacavaMarco/RecSys2021_Govigli_Lacava/tree/main/GITHUB_MODULES) which contains the [course framework repo](https://github.com/MaurizioFD/RecSys_Course_AT_PoliMi) given by the professor
+* [CustomModels](https://github.com/LacavaMarco/RecSys2021_Govigli_Lacava/tree/main/CustomModules) which contains our custom models and scripts created for the competition
+* [GithubModules](https://github.com/LacavaMarco/RecSys2021_Govigli_Lacava/tree/main/GithubModules) which contains the [course framework repo](https://github.com/MaurizioFD/RecSys_Course_AT_PoliMi) given by the professor
 
 ## Overview
 
