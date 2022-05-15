@@ -2,8 +2,8 @@
 
 This repository contains the code used for the [Recommender System 2021 Challenge](https://www.kaggle.com/c/recommender-system-2021-challenge-polimi) hosted by the Recommender Systems course at Politecnico di Milano.
 The repository is split in 2 main folders:
-* [Challenge2021](https://github.com/Menta99/RecSys2021_Mainetti_Menta/tree/main/Challenge2021) which contains our custom models and scripts created for the competition
-* [RecSysCourseMaterial](https://github.com/Menta99/RecSys2021_Mainetti_Menta/tree/main/RecSysCourseMaterial) which contains the codebase given by the professor
+* [CustomModels](https://github.com/LacavaMarco/RecSys2021_Govigli_Lacava/tree/main/CUSTOM_MODELS) which contains our custom models and scripts created for the competition
+* [GithubModules](https://github.com/LacavaMarco/RecSys2021_Govigli_Lacava/tree/main/GITHUB_MODULES) which contains the [course framework repo](https://github.com/MaurizioFD/RecSys_Course_AT_PoliMi) given by the professor
 
 ## Overview
 
@@ -40,11 +40,13 @@ The **ICMs** were not so effective in our experiments, thus we decided to focus 
 Our best model was in fact a **hybrid between SLIM and iALS**, to improve it we tried the following solutions:
 * Hybrids composed by **more than 2 models**
 * A **hierarchical structure**: we tried to combine the base models toghether by building a hybrid and iteratively combine it with other base models starting from the algorithms with the lowest MAP
-* **Co-trained hybrid models** (composed by 2 models) and their combinations
+* **Co-trained hybrid models** (composed by 2 models) and their combinations.
+
+The first two improvement solutions gave worst results than SLIM+iALS, while some co-trained hybrids performed better than SLIM+iALS in the validation set but didn't improve the leaderboard score. Since the implementation of the co-trained hybrid models was done in the last days of the challenge, investing more time on them would have probably let us find a new best model.
 
 ### Evaluation
-- **Public** Leaderboard score: **0.48065** (25th)
-- **Private** Leaderboard score: **0.48080** (26th)
+- **Public** Leaderboard score: **0.48065**
+- **Private** Leaderboard score: **0.48080**
 
 ## Group Members
 - [__Marco Lacava__](https://github.com/LacavaMarco)
