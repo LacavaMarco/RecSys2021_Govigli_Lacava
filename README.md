@@ -42,7 +42,7 @@ Our best model was in fact a **hybrid between SLIM and iALS**, to improve it we 
 * A **hierarchical structure**: we tried to combine the base models toghether by building a hybrid and iteratively combine it with other base models starting from the algorithms with the lowest MAP
 * **Co-trained hybrid models** (composed by 2 models) and their combinations.
 
-The first two improvement solutions gave worst results than SLIM+iALS, while some co-trained hybrids performed better than SLIM+iALS in the validation set but didn't improve the leaderboard score. Since the implementation of the co-trained hybrid models was done in the last days of the challenge, investing more time on them would have probably let us find a new best model.
+The first two improvement solutions gave worse results than SLIM+iALS, while some co-trained hybrids performed better than SLIM+iALS in the validation set but didn't improve the leaderboard score. Since the implementation of the co-trained hybrid models was done in the last days of the challenge, investing more time on them would have probably let us find a new best model.
 
 ### Evaluation
 - **Public** Leaderboard score: **0.48065**
